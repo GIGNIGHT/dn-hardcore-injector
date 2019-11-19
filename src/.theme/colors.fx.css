@@ -1,0 +1,27 @@
+* {
+    -default: rgb(255, 255, 255);
+    -default-inv: rgb(0, 0, 0);
+    -default-text: rgb(0, 0, 0);
+    
+    -green: #82b933;
+    -dark-green: #77a632;
+    
+    -dk-gray: rgb(25, 25, 25);    
+    -lt-gray: rgb(200,200,200);    
+    -slt-gray: rgb(230,230,230);
+    
+    -warn: rgb(243, 156, 18);
+    
+    -success: rgb(46, 204, 113);
+    -lt-success: rgb(50,225,123);
+    -dk-success: rgb(40,181,99);
+    
+    -error: rgb(231, 76, 60);
+    -lt-error: rgb(255,85,66);
+    -dk-error: rgb(187,62,48);
+    
+    -primary: rgb(81,139,203);
+    -lt-primary: rgb(88,151,219);
+    -slt-primary: rgb(92,159,231);
+    -dk-primary: rgb(74,127,184);
+}

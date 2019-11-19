@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240" prefWidth="264" styleClass="">
+  <children>
+    <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="240" prefWidth="264" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="RIGHT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="0" layoutY="0" prefHeight="32" prefWidth="264" styleClass="label lbl " text="    About" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="Plumb-Bold" size="13"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <VBox alignment="TOP_LEFT" focusTraversable="false" id="vbox" layoutX="8" layoutY="72" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="112" prefWidth="240" spacing="10" styleClass="">
+          <padding>
+            <Insets bottom="0" left="20" right="0" top="0"/>
+          </padding>
+          <children>
+            <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="20" layoutY="0" prefHeight="13.487999916077" prefWidth="106.30799865723" styleClass="label dsk " text="AUTHOR: GIGNIGHT" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="20" layoutY="25" prefHeight="13.487999916077" prefWidth="91.187995910645" styleClass="label dsk " text="SITE: gignight.ru" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="20" layoutY="50" prefHeight="13.487999916077" prefWidth="71.60400390625" styleClass="label dsk " text="VERSION: 1.1" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="20" layoutY="75" prefHeight="13.487999916077" prefWidth="99.335990905762" styleClass="label dsk " text="BUILD: 20.11.2019" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+          </children>
+        </VBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-vbox" visible="1"/>
+        <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="192" layoutY="200" prefHeight="26" prefWidth="64" styleClass="button jfx-button " text="OK" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="Plumb-Bold" size="13"/>
+          </font>
+        </com.jfoenix.controls.JFXButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="224" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 10;" titleColor="#333333" titleOffset="-999" titlePosition="TOP_LEFT">
+      <children/>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="s"/>
+        <String fx:value="svg"/>
+        <String fx:value="close"/>
+      </styleClass>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+  </children>
+</AnchorPane>

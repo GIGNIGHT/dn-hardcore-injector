@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440" prefWidth="592" styleClass="">
+  <children>
+    <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="440" prefWidth="592" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Panel backgroundColor="#82b933" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="592" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="15.736000061035" prefWidth="112.33600616455" styleClass="label " text="Hardcore Injector" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="14"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+            <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="close" layoutX="552" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 10;" titleColor="#333333" titleOffset="-999" titlePosition="TOP_LEFT">
+              <children/>
+              <styleClass xmlns:fx="http://javafx.com/fxml">
+                <String fx:value="s"/>
+                <String fx:value="svg"/>
+                <String fx:value="close"/>
+              </styleClass>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-close" visible="1"/>
+            <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel3" layoutX="520" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 12 10;" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <styleClass xmlns:fx="http://javafx.com/fxml">
+                <String fx:value="s"/>
+                <String fx:value="svg"/>
+                <String fx:value="minimize"/>
+              </styleClass>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel4" layoutX="24" layoutY="56" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="176" prefWidth="208" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="RIGHT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="0" layoutY="0" prefHeight="24" prefWidth="208" styleClass="label lbl " text="    Process" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="13"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+            <com.jfoenix.controls.JFXTextField alignment="CENTER" editable="true" focusColor="#8dd526" focusTraversable="false" id="pName" layoutX="72" layoutY="32" prefColumnCount="12" prefHeight="23" prefWidth="128" promptText="csgo.exe" text="" unFocusColor="#82b933">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+              <styleClass xmlns:fx="http://javafx.com/fxml">
+                <String fx:value="text-input"/>
+                <String fx:value="text-field"/>
+                <String fx:value="jfx-text-field"/>
+              </styleClass>
+            </com.jfoenix.controls.JFXTextField>
+            <Data cursor="DEFAULT" enabled="1" id="data-pName" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="8" layoutY="104" prefHeight="13.487999916077" prefWidth="31.524000167847" styleClass="label dsk " text="TITLE" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="pid" layoutX="104" layoutY="72" prefHeight="15" prefWidth="96" styleClass="label " text="UNKNOWN" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-pid" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="pTitle" layoutX="104" layoutY="104" prefHeight="15" prefWidth="96" styleClass="label " text="UNKNOWN" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-pTitle" visible="1"/>
+            <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="8" layoutY="143" prefHeight="26" prefWidth="192" styleClass="button jfx-button " text="Select Process" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="13"/>
+              </font>
+            </com.jfoenix.controls.JFXButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="8" layoutY="72" prefHeight="13.487999916077" prefWidth="19.104000091553" styleClass="label dsk " text="PID" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="32" layoutY="96" prefHeight="13.487999916077" prefWidth="33.180000305176" styleClass="label dsk " text="NAME" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="Plumb-Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="72" layoutY="288" prefHeight="32" prefWidth="144" styleClass="button " text="Кнопка" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="80" layoutY="288" prefHeight="32" prefWidth="144" styleClass="button " text="Кнопка" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel5" layoutX="24" layoutY="248" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="104" prefWidth="208" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="RIGHT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="0" layoutY="0" prefHeight="24" prefWidth="208" styleClass="label lbl " text="    Cloacking" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="13"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox3" layoutX="8" layoutY="40" prefHeight="24" prefWidth="144" styleClass="check-box " text="Unlink from PEB" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-checkbox3" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="8" layoutY="72" prefHeight="24" prefWidth="144" styleClass="check-box " text="Randomize file name" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="12"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="1" id="data-panel5" visible="1"/>
+        <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="24" layoutY="366" prefHeight="26" prefWidth="208" styleClass="button jfx-button " text="Reset settings" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="Plumb-Bold" size="13"/>
+          </font>
+        </com.jfoenix.controls.JFXButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel7" layoutX="248" layoutY="56" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="336" prefWidth="320" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="RIGHT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="0" layoutY="0" prefHeight="24" prefWidth="320" styleClass="label lbl " text="    Files" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="13"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+            <ListViewEx editable="false" fixedCellSize="-1" focusTraversable="true" id="listFiles" layoutX="8" layoutY="32" prefHeight="256" prefWidth="304" style="-fx-background-insets: 1;" styleClass="list-view ">
+              <items xmlns:fx="http://javafx.com/fxml">
+                <FXCollections fx:factory="observableArrayList"/>
+              </items>
+            </ListViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-listFiles" multipleSelection="" visible="1"/>
+            <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="9" layoutY="300" prefHeight="26" prefWidth="144" styleClass="button jfx-button " text="Add file" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="13"/>
+              </font>
+            </com.jfoenix.controls.JFXButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+            <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button6" layoutX="160" layoutY="300" prefHeight="26" prefWidth="151" styleClass="button jfx-button " text="Remove selected file" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Plumb-Bold" size="13"/>
+              </font>
+            </com.jfoenix.controls.JFXButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="1" id="data-panel7" visible="1"/>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel8" layoutX="24" layoutY="408" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="26" prefWidth="544" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <HBox alignment="CENTER" focusTraversable="false" id="hbox" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="26" prefWidth="544" spacing="15" styleClass="">
+              <children>
+                <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button7" layoutX="113" layoutY="0" prefHeight="26" prefWidth="152" styleClass="button jfx-button " text="Inject" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Plumb-Bold" size="13"/>
+                  </font>
+                </com.jfoenix.controls.JFXButton>
+                <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+                <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button8" layoutX="280" layoutY="0" prefHeight="26" prefWidth="152" styleClass="button jfx-button " text="About" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Plumb-Bold" size="13"/>
+                  </font>
+                </com.jfoenix.controls.JFXButton>
+                <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
+              </children>
+            </HBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-hbox" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="1" id="data-panel8" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

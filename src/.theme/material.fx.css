@@ -1,0 +1,15 @@
+
+.jfx-check-box .box
+{
+    -fx-border-color: "#82b933";
+}
+
+.jfx-check-box .label
+{
+    -fx-font: 12 "Plumb";
+}
+
+.jfx-check-box:selected .box
+{
+    -fx-background-color: "#82b933";
+}
